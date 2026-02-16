@@ -17,17 +17,17 @@ Ce projet met en place un pipeline ETL temps réel permettant de :
 ## ⚙️ Architecture du pipeline <br>
 Voici une vue d’ensemble du flux de données :
       
-         ```mermaid
-         flowchart LR
+```mermaid
+flowchart LR
 
-         A[Generator Tickets Python] --> B[Redpanda Kafka]
-         B --> C[PySpark Streaming]
-         C --> D[MySQL]
-         C --> E[Export JSON/Parquet]
+A[Generator Tickets Python] --> B[Redpanda Kafka]
+B --> C[PySpark Streaming]
+C --> D[MySQL]
+C --> E[Export JSON/Parquet]
 
-         D --> F[Dashboard / Analyse]
-         E --> F
-         ```
+D --> F[Dashboard / Analyse]
+E --> F
+```
 
 
 ------
