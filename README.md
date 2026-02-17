@@ -87,6 +87,8 @@ Les services suivants démarrent :redpanda,mysql,cheik-producer,cheik-spark
 -----
 ## 🎥 Démonstration vidéo <br>  
 
+👉 [Voir la vidéo de démonstration](https://1drv.ms/v/c/77c005c62f051c55/IQAaIiirrOxGQ4DVrVw5N7ieAUADoXRSPMHLcqc8qwVOvZk?e=ubYprp)
+
 
 -----
 ## 📁 Structure du projet <br>
